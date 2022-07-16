@@ -58,6 +58,14 @@ p {
     flex-wrap: wrap;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.align-items {
+    align-items: center;
+}
+
 
 /* Intestazione pagina e navigazione */
 header {
@@ -101,8 +109,8 @@ h1 {
     color: black;
 }
 
-.pulsanti-neri {
-    background-color: black;
+.pulsanti-azzurri {
+    background-color: rgb(35, 82, 224);
     color: white;
 }
 
@@ -133,6 +141,21 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
+#stelline-sfondo {
+    background-image: url(../img/stars.svg);
+    background-size: 95%;
+    width: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-y: center;
+    line-height: 80px;
+}
+
+#call-to-action,
 #community,
 #chiamate,
 #chat-gruppo {
