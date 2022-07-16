@@ -231,6 +231,15 @@ footer .column {
     padding: 0px 10px;
 }
 
+.elenchi-menù a {
+    padding-bottom: 10px;
+}
+
+.titolo-riferimento {
+    font-size: 1rem;
+    color: rgb(35, 82, 224);
+}
+
 footer hr {
     margin: 25px 0px;
 }
