@@ -12,18 +12,25 @@
 <body>
     <!-- Intestazione pagina e navigazione -->
     <header>
+        <!-- Menù navigazione -->
         <section class="menù-navigazione container flex space-between">
-            <div id="logo">
+            <div>
                 <img src="img/logo.svg" alt="Logo Discord">
             </div>
-            <nav>Scarica</nav>
-            <nav>Perchè Discord</nav>
-            <nav>Nitro</nav>
-            <nav>Sicurezza</nav>
-            <nav>Assistenza</nav>
+            <nav>
+                <ul class="flex space-between">
+                    <li><a href="#">Scarica</a></li>
+                    <li><a href="#">Perchè Discord</a></li>
+                    <li><a href="#">Nitro</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                </ul>
+            </nav>
             <button id="pulsante-accedi" class="pulsanti pulsanti-bianchi">ACCEDI</button>
         </section>
+        <!-- end Menù navigazione -->
 
+        <!-- Titolo e presentazione app -->
         <section class="intestazione">
             <div class="intestazione-container">
                 <h1>Il tuo posto per parlare</h1>
@@ -36,14 +43,42 @@
             </div>
 
             <div class="pulsanti-scarica">
-                <button class="pulsanti pulsanti-bianchi">&darr; Scarica per Mac</button>
+                <button class="pulsanti pulsanti-bianchi">&#8681; Scarica per Mac</button>
                 <button class="pulsanti pulsanti-neri">Apri Discord nel tuo browser</button>
             </div>
         </section>
-
+        <!-- end Titolo e presentazione app -->
     </header>
     <!-- end Intestazione pagina e navigazione -->
 
+
+    <!-- Contenuto pagina -->
+    <main>
+        <!-- Chat di gruppo -->
+        <section id="chat-gruppo">
+            <div class="container flex justify-center wrap">
+                <div>
+                    <img src="img/item1.svg" alt="Chat di gruppo Discord">
+                </div>
+                <div>
+                    <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                    <p>
+                        I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                        semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- end Chat di gruppo -->
+
+
+    </main>
+    <!-- end Contenuto pagina -->
+
+
+    <!-- Info azienda e lik utili -->
+
+    <!-- end Info azienda e link utili -->
 </body>
 
 </html>
