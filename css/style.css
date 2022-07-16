@@ -41,6 +41,12 @@ p {
     font-size: 1.2rem;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* flex */
 .flex {
     display: flex;
@@ -66,6 +72,9 @@ p {
     align-items: center;
 }
 
+.grow {
+    flex-grow: 1;
+}
 
 /* Intestazione pagina e navigazione */
 header {
@@ -184,6 +193,47 @@ main svg.even {
 
 
 /* Info azienda e link utili */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 50px 0px;
+}
+
+#profili-social {
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+#profili-social h2 {
+    padding-bottom: 30px;
+    color: rgb(35, 82, 224);
+}
+
+#lingua {
+    margin-bottom: 15px;
+}
+
+#bandiera {
+    float: left;
+}
+
+#bandiera img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.chevron {
+    margin-left: 10px;
+}
+
+footer .column {
+    flex-basis: calc(25% - 20px);
+    padding: 0px 10px;
+}
+
+footer hr {
+    margin: 25px 0px;
+}
 
 /* end Info azienda e link utili */
 
