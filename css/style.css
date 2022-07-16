@@ -133,13 +133,14 @@ h2 {
     font-size: 2rem;
 }
 
+#community,
 #chiamate,
 #chat-gruppo {
     padding: 75px 0px;
 }
 
 .sezioni-pari {
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
 }
 
 /* end Contenuto pagina */
@@ -147,13 +148,13 @@ h2 {
 
 /* Onda */
 main svg {
-    color: #e0e0e0;
+    color: #f0f0f0;
     display: block;
 }
 
 main svg.even {
     color: white;
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
 }
 
 /* end Onda */
