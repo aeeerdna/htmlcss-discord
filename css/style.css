@@ -1,0 +1,122 @@
+/* Impostazione pagina */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* end Impostazione pagina */
+
+
+/* Sezioni */
+
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #23272a;
+    color: white;
+    padding-top: 50px;
+}
+
+/* end Sezioni */
+
+
+/* Intestazione pagina e navigazione */
+
+.menù-navigazione {
+    padding: 20px;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-size: 3rem;
+}
+
+.intestazione {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.intestazione-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.pulsanti {
+    padding: 15px 35px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.pulsanti-bianchi {
+    background-color: white;
+    color: black;
+}
+
+.pulsanti-neri {
+    background-color: black;
+    color: white;
+}
+
+.pulsanti-scarica {
+    padding-bottom: 150px;
+}
+
+#pulsante-accedi {
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+/* end Intestazione pagina e navigazione */
+
+
+/* Contenuto pagina */
+
+/* end Contenuto pagina */
+
+
+/* Info utili */
+
+/* end Info utili */
+
+
+/******** PROVE ********/
+
+/* #logo {
+    justify-content: flex-start;
+}
+
+.pulsante-accedi {
+    justify-content: flex-end;
+} */
+
+/******** PROVE ********/
